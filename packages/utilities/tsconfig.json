@@ -1,0 +1,3 @@
+{
+  "extends": "@exonote/configs/react.tsconfig.json"
+}
