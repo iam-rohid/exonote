@@ -10,7 +10,10 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "desktop:dev": "pnpm --filter @exonote/desktop tauri dev",
+    "web:dev": "pnpm --filter @exonote/web dev",
+    "landing:dev": "pnpm --filter @exonote/landing dev"
   },
   "devDependencies": {
     "prettier": "latest",
